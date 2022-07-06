@@ -4,6 +4,13 @@ from GeraLoto import GeNuLoto
 app = Flask(__name__)
 
 
+@app.route('/')
+def homepage():
+    resultado = "O site está funcionando ok !!!"
+
+    return resultado
+
+
 @app.route('/lotofacil')
 def lotofacil():
     resultado = "O site está funcionando ok !!!"
