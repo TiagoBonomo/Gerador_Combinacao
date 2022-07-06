@@ -1,4 +1,4 @@
-from flask import Flask, request
+from flask import Flask, request, jsonify
 from GeraLoto import GeNuLoto
 
 app = Flask(__name__)
@@ -18,7 +18,7 @@ def lotofacil():
     fibonaci = request.args.get('finonaci')
     primos = request.args.get('primos')
 
-    return res
+    return jsonify(res)
 
 
 if __name__ == "__main__":

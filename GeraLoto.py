@@ -79,7 +79,7 @@ class GeNuLoto:
         dict_comb = dict(zip(lista_chaves, lista_comb))
         json_comb = json.dumps(dict_comb)
         print(json_comb)
-        return json_comb
+        return dict_comb
 
 
 #lotofacil = GeNuLoto(100, 15)
