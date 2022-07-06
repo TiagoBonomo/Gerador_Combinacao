@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template
 from GeraLoto import GeNuLoto
 
 app = Flask(__name__)
@@ -6,9 +6,8 @@ app = Flask(__name__)
 
 @app.route('/')
 def homepage():
-    resultado = "O site está funcionando ok !!!"
 
-    return resultado
+    return render_template("homepage.html")
 
 
 @app.route('/lotofacil')
