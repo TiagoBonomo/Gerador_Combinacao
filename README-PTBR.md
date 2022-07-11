@@ -38,17 +38,19 @@ Exemplo:
 	a resposta é enviada em formato Json
 
 ## Links
+	Obs: Adicione os valores de parametros como no exemplo abaixo.
 
-
-
+	Ex: https://apilotofacil.herokuapp.com/?q_combinacoes=10&q_dezenas=15 
+		
+	https://apilotofacil.herokuapp.com
 
 
 ## 🛠️ Construído com
 
 * [Python](https://docs.python.org/3/) - Linguagem de Programação Python
 * [Flask](https://flask.palletsprojects.com/en/2.1.x/) - Framework de Desenvolvimento Web Python
-* [request](https://flask.palletsprojects.com/en/2.1.x/) 
-* [jsonify](https://flask.palletsprojects.com/en/2.1.x/) 
+* [request]
+* [jsonify]
 
 ## 🖇️ Colaborando
 
