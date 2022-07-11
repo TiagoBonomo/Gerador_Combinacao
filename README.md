@@ -37,11 +37,15 @@ Exemplo:
 	contendo 15 dezenas cada combinação,
 	a resposta é enviada em formato Json
 
-## Links
+Exemplo:
+
 	Obs: Adicione os valores de parametros como no exemplo abaixo.
 
 	Ex: https://apilotofacil.herokuapp.com/?q_combinacoes=10&q_dezenas=15 
-		
+
+
+## Links
+			
 	https://apilotofacil.herokuapp.com
 
 
