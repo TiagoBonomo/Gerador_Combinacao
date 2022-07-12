@@ -37,7 +37,7 @@ Exemplo:
 	contendo 15 dezenas cada combinação,
 	a resposta é enviada em formato Json
 
-Exemplo:
+Para realizar request via web segue link abaixo:
 
 	Obs: Adicione os valores de parametros como no exemplo abaixo.
 
