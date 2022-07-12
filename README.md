@@ -3,6 +3,9 @@
 # Gerador de Combinações
 
 Estudo de Desenvolvimento de API utilisando Python/Flask.
+A API tem em teoria capacidade de gerar a quantidade de um pouco mais de 3 milhões de combinações, com a quantidade de 15 dezenas cada combinação,
+a mesma pode gerar combinações com menos ou mais de 15 dezenas, o range utilizado na geração das combinações e de 1 a 25.
+API foi desenvolvida para gerar combinações para para a loteria LOTOFACIL. 
 
 ### 📋 Pré-requisitos
 

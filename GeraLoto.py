@@ -20,7 +20,7 @@ class GeNuLoto:
 
         dezenas = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13,
                    14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
-        # dezenas = [1, 2, 3, 4, 5]
+
         combinacoes = []
         combinacao = []
 
@@ -38,7 +38,7 @@ class GeNuLoto:
         while (res > cont_combs):
             combination = random.sample(dezenas, p)
             if len(combinacoes) == 0:
-                #print("Combination: ", combination)
+
                 combinacoes.append(sorted(combination))
                 cont_combs = cont_combs + 1
 
@@ -52,9 +52,7 @@ class GeNuLoto:
                         cont_inters = cont_inters + 1
 
                 if cont_inters == 0:
-                    #print("Combinação: ", combination)
-                    #print("Interceção: ", inters)
-                    #print("Quantidade de Interceções: ", len(inters))
+                    
                     combinacoes.append(sorted(combination))
                     cont_combs = cont_combs + 1
 
@@ -69,11 +67,7 @@ class GeNuLoto:
             lista_chaves.append(str(cont_res))
             lista_comb.append(i)
 
-            # print(str(lista_chaves[indice])+str(lista_comb[indice]))
-
-            #print(str(cont_res)+"º Combinação: ", i)
-            #print(str(indice)+" variavel indice ")
-
+            
             indice = indice + 1
 
         dict_comb = dict(zip(lista_chaves, lista_comb))
@@ -82,6 +76,3 @@ class GeNuLoto:
         return dict_comb
 
 
-#lotofacil = GeNuLoto(100, 15)
-# lotofacil.ve_dados()
-# lotofacil.ge_comb()
