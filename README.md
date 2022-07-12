@@ -35,8 +35,8 @@ http://localhost:5000/?q_combinacoes=3&q_dezenas=15
 
 ![Exemplo execução local 01](/readme_images/print01.png)
 
-Neste exemplo é feita uma requisição de 3 combinações 
-contendo 15 dezenas cada combinação,
+Neste exemplo é feita uma requisição de 4 combinações 
+contendo 16 dezenas cada combinação,
 a resposta é enviada em formato Json
 
 ![Exemplo execução local 02](/readme_images/print02.png)
