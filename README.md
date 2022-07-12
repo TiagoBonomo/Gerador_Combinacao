@@ -33,9 +33,13 @@ Exemplo:
 
 http://localhost:5000/?q_combinacoes=3&q_dezenas=15
 
+![Exemplo execução local 01](/readme_images/print01.png)
+
 Neste exemplo é feita uma requisição de 3 combinações 
 contendo 15 dezenas cada combinação,
 a resposta é enviada em formato Json
+
+![Exemplo execução local 02](/readme_images/print02.png)
 
 Para realizar request via web segue link abaixo:
 
@@ -43,6 +47,9 @@ Obs: Adicione os valores de parametros como no exemplo abaixo.
 
 Ex: https://apilotofacil.herokuapp.com/?q_combinacoes=10&q_dezenas=15 
 
+![Exemplo execução heroku](/readme_images/heroku001.png)
+
+![Exemplo execução heroku](/readme_images/heroku002.png)
 
 ## Links
 			
