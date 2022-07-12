@@ -1,4 +1,4 @@
-![Logo of the project](https://logo_link)
+![Logo of the project]([https://logo_link](https://github.com/TiagoBonomo/Gerador_Combinacao/blob/master/readme_images/logo_projeto.png))
 
 # Gerador de Combinações
 
