@@ -2,10 +2,10 @@
 
 # Gerador de Combinações
 
-<p>Estudo de Desenvolvimento de API utilisando Python/Flask.</p>
+<p>Estudo de Desenvolvimento de API utilizando Python/Flask.</p>
 <p>A API tem em teoria capacidade de gerar a quantidade de um pouco mais de 3 milhões de combinações, com a quantidade de 15 dezenas cada combinação,
 a mesma pode gerar combinações com menos ou mais de 15 dezenas, o range utilizado na geração das combinações e de 1 a 25.</p>
-<p>API foi desenvolvida para gerar combinações para a loteria LOTOFACIL. </p>
+<p>API foi desenvolvida para gerar combinações para a loteria LOTO FÁCIL. </p>
 
 ### 📋 Pré-requisitos
 
@@ -18,14 +18,14 @@ Com o Python 3.9.12 ou superior instalado acesse a pasta do projeto onde se enco
 	
 pip install -r requirements.txt
 
-Após a instalação das dependencias execute:
+Após a instalação das dependências execute:
 	
 python main.py
 
 ## ⚙️ Executando os testes
 
 Para realizar a request deve ser enviado 
-dois paramantros, q_combinacoes e q_dezenas.
+dois parâmetros, q_combinacoes e q_dezenas.
 
 q_combinacoes -> Quantidade de combinações desejadas.
 
@@ -46,7 +46,7 @@ a resposta é enviada em formato Json
 
 Para realizar request via web segue link abaixo:
 
-Obs: Adicione os valores de parametros como no exemplo abaixo.
+Obs: Adicione os valores de parâmetros como no exemplo abaixo.
 
 Ex: https://apilotofacil.herokuapp.com/?q_combinacoes=10&q_dezenas=15 
 
