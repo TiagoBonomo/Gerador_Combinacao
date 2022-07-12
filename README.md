@@ -1,4 +1,4 @@
-![Logo of the project]([https://logo_link](https://github.com/TiagoBonomo/Gerador_Combinacao/blob/master/readme_images/logo_projeto.png))
+![Logo do projeto](/readme_images/logo_projeto.png)
 
 # Gerador de Combinações
 
@@ -6,47 +6,47 @@ Estudo de Desenvolvimento de API utilisando Python/Flask.
 
 ### 📋 Pré-requisitos
 
-	* Python 3.9.12
-	* Flask 2.1.2 
+* Python 3.9.12
+* Flask 2.1.2 
 
 ### 🔧 Instalação
 
 Com o Python 3.9.12 ou superior instalado acesse a pasta do projeto onde se encontra o arquivo requirements.txt execute:
 	
-	pip install -r requirements.txt
+pip install -r requirements.txt
 
 Após a instalação das dependencias execute:
 	
-	python main.py
+python main.py
 
 ## ⚙️ Executando os testes
 
-	Para realizar a request deve ser enviado 
-	dois paramantros, q_combinacoes e q_dezenas.
+Para realizar a request deve ser enviado 
+dois paramantros, q_combinacoes e q_dezenas.
 
-	q_combinacoes -> Quantidade de combinações desejadas.
+q_combinacoes -> Quantidade de combinações desejadas.
 
-	q_dezenas -> Quantidade de dezenas desejada para cada 
-	combinação.
+q_dezenas -> Quantidade de dezenas desejada para cada 
+combinação.
 
 Exemplo:
 
-	http://localhost:5000/?q_combinacoes=3&q_dezenas=15
+http://localhost:5000/?q_combinacoes=3&q_dezenas=15
 
-	Neste exemplo é feita uma requisição de 3 combinações 
-	contendo 15 dezenas cada combinação,
-	a resposta é enviada em formato Json
+Neste exemplo é feita uma requisição de 3 combinações 
+contendo 15 dezenas cada combinação,
+a resposta é enviada em formato Json
 
 Para realizar request via web segue link abaixo:
 
-	Obs: Adicione os valores de parametros como no exemplo abaixo.
+Obs: Adicione os valores de parametros como no exemplo abaixo.
 
-	Ex: https://apilotofacil.herokuapp.com/?q_combinacoes=10&q_dezenas=15 
+Ex: https://apilotofacil.herokuapp.com/?q_combinacoes=10&q_dezenas=15 
 
 
 ## Links
 			
-	https://apilotofacil.herokuapp.com
+https://apilotofacil.herokuapp.com
 
 
 ## 🛠️ Construído com
