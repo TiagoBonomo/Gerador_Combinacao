@@ -72,7 +72,7 @@ https://apilotofacil.herokuapp.com
 
 ## 📄 Licença
 
-https://choosealicense.com/licenses/mit/
+[![Licença](https://img.shields.io/:license-mit-blue.svg?style=flat-square)](LICENÇA)
 
 ## 🎁 Expressões de gratidão
 
